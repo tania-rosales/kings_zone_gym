@@ -5626,6 +5626,11 @@ a.close.disabled {
 .bg-primary {
   background-color: #e31c25 !important;
 }
+
+.bg-primary2 {
+  background-color: #FCBE11 !important; /*Amarillo*/
+}
+
 a.bg-primary:focus,
 a.bg-primary:hover,
 button.bg-primary:focus,
@@ -5635,6 +5640,11 @@ button.bg-primary:hover {
 .bg-secondary {
   background-color: #111 !important;
 }
+
+.bg-secondary2 {
+  background-color: #8E22BB !important; /*Morado*/
+}
+
 a.bg-secondary:focus,
 a.bg-secondary:hover,
 button.bg-secondary:focus,
