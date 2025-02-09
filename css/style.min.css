@@ -8946,3 +8946,9 @@ a.text-dark:hover {
   height: auto;
   margin-top: 10px;
 }
+
+.text-border {
+  -webkit-text-stroke: 2px #8E22BB;
+  text-stroke: 2px #8E22BB;
+  text-shadow: -1px -1px 0 #8E22BB, 1px -1px 0 #8E22BB, -1px 1px 0 #8E22BB, 1px 1px 0 #8E22BB;
+}
