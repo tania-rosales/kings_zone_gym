@@ -3743,7 +3743,7 @@ input[type="submit"].btn-block {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
   padding: 0.5rem 1rem;
 }
@@ -8827,8 +8827,8 @@ a.text-dark:hover {
   align-items: center;
   justify-content: center;
   font-size: 35px;
-  color: #fff;
-  background: #e31c25;
+  color: #000000;
+  background: #FCBE11;
 }
 @media (max-width: 767.98px) {
   .bmi {
@@ -9004,3 +9004,11 @@ a:hover img {
   75% { transform: translateY(-5px) rotate(5deg); }
   100% { transform: translateY(0) rotate(0deg); }
 }
+
+
+/*Page header que falta este header se va a usar para todos*/
+.page-header,.subscribe{
+  background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url(../img/bg.jpg);
+  background-position:top;
+  background-repeat:no-repeat;
+  background-size:cover}
