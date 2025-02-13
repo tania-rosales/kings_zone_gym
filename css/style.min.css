@@ -429,6 +429,17 @@ h6 {
     font-size: calc(1.475rem + 2.7vw);
   }
 }
+
+.display-5 {
+  font-size: 5.5rem;
+  line-height: 1.2;
+}
+@media (max-width: 1200px) {
+  .display-5 {
+    font-size: calc(1.675rem + 5.1vw);
+  }
+}
+
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
