@@ -76,44 +76,54 @@
         </div>
         <!-- Primera fila de máquinas -->
         <div class="row">
+           
             <div class="col-lg-3 col-md-6 mb-5">
                 <div class="card border-0 bg-secondary text-center text-white">
-                    <img class="card-img-top" src="img/press_piernas.webp" alt="">
-                    <div class="card-social d-flex align-items-center justify-content-center">
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-instagram"></i></a>
+                    <div class="image-container" style="position: relative;">
+                        <!-- Imagen -->
+                        <img class="card-img-top" src="img/press_piernas.webp" alt="" onmouseover="mostrarDescripcion(this)" onmouseout="ocultarDescripcion(this)">
+                        
+                        <!-- Descripción (oculta inicialmente) -->
+                        <div class="descripcion-overlay" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; text-align: center; background-color: rgba(0, 0, 0, 0.6); color: white; padding: 10px; display: none;">
+                            <p>Fortalecimiento de piernas: press de piernas es un ejercicio muy efectivo para fortalecer los músculos de las piernas, especialmente los cuádriceps, los glúteos y los isquiotibiales.</p>
+                        </div>
                     </div>
+                   
                     <div class="card-body bg-secondary">
                         <h4 class="card-title text-primary">Press de piernas</h4>
-                        
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6 mb-5">
                 <div class="card border-0 bg-secondary text-center text-white">
-                    <img class="card-img-top" src="img/press_horizontal.webp" alt="">
-                    <div class="card-social d-flex align-items-center justify-content-center">
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-instagram"></i></a>
+                    <div class="image-container" style="position: relative;">
+                        <!-- Imagen -->
+                        <img class="card-img-top" src="img/press_horizontal.webp" alt="" onmouseover="mostrarDescripcion(this)" onmouseout="ocultarDescripcion(this)">
+                        
+                        <!-- Descripción (oculta inicialmente) -->
+                        <div class="descripcion-overlay" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; text-align: center; background-color: rgba(0, 0, 0, 0.6); color: white; padding: 10px; display: none;">
+                            <p>Estimula el crecimiento muscular en varios grupos musculares a la vez.</p>
+                        </div>
                     </div>
+                    
                     <div class="card-body bg-secondary">
                         <h4 class="card-title text-primary">Press horizontal</h4>
-                        
                     </div>
                 </div>
             </div>
+            
+
             <div class="col-lg-3 col-md-6 mb-5">
                 <div class="card border-0 bg-secondary text-center text-white">
-                    <img class="card-img-top" src="img/rack_sentadilla_libre.webp" alt="">
-                    <div class="card-social d-flex align-items-center justify-content-center">
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-instagram"></i></a>
+                    <div class="image-container" style="position: relative;">
+                        <img class="card-img-top" src="img/rack_sentadilla_libre.webp" alt="" onmouseover="mostrarDescripcion(this)" onmouseout="ocultarDescripcion(this)">
+
+                         <!-- Descripción (oculta inicialmente) -->
+                         <div class="descripcion-overlay" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; text-align: center; background-color: rgba(0, 0, 0, 0.6); color: white; padding: 10px; display: none;">
+                            <p>Es una herramienta fundamental para el entrenamiento de fuerza y desarrollo muscular de las piernas y glúteos.</p>
+                        </div>
+
                     </div>
                     <div class="card-body bg-secondary">
                         <h4 class="card-title text-primary">Rack para sentadilla libre</h4>
@@ -121,21 +131,26 @@
                     </div>
                 </div>
             </div>
+
+
             <div class="col-lg-3 col-md-6 mb-5">
                 <div class="card border-0 bg-secondary text-center text-white">
-                    <img class="card-img-top" src="img/rack_piernas.webp" alt="">
-                    <div class="card-social d-flex align-items-center justify-content-center">
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-instagram"></i></a>
+                    <div class="image-container" style="position: relative;">
+                        <img class="card-img-top" src="img/rack_piernas.webp" alt="" onmouseover="mostrarDescripcion(this)" onmouseout="ocultarDescripcion(this)">
+
+                         <!-- Descripción (oculta inicialmente) -->
+                         <div class="descripcion-overlay" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; text-align: center; background-color: rgba(0, 0, 0, 0.6); color: white; padding: 10px; display: none;">
+                            <p>Es una maquina donde logras hacer sentadillas dentro de un rack, utilizando la barra y los soportes para mayor seguridad, tambien tiene la función para hacer Espalda, Biceps, Triceps entre otros ejercicios</p>
+                        </div>
+
                     </div>
                     <div class="card-body bg-secondary">
-                        <h4 class="card-title text-primary">Rack de piernas</h4>
+                        <h4 class="card-title text-primary">Rack Multiple</h4>
                         
                     </div>
                 </div>
             </div>
+            
         </div>
         <!-- Fin primera fila de máquinas -->
 
@@ -143,70 +158,114 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 mb-5">
                 <div class="card border-0 bg-secondary text-center text-white">
-                    <img class="card-img-top" src="img/maquina_triceps.webp" alt="">
-                    <div class="card-social d-flex align-items-center justify-content-center">
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-instagram"></i></a>
+                    <div class="image-container" style="position: relative;">
+                        <img class="card-img-top" src="img/maquina_triceps.webp" alt="" onmouseover="mostrarDescripcion(this)" onmouseout="ocultarDescripcion(this)">
+
+                         <!-- Descripción (oculta inicialmente) -->
+                         <div class="descripcion-overlay" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; text-align: center; background-color: rgba(0, 0, 0, 0.6); color: white; padding: 10px; display: none;">
+                            <p>Es una maquina donde logras hacer sentadillas dentro de un rack, utilizando la barra y los soportes para mayor seguridad, tambien tiene la función para hacer Espalda, Biceps, Triceps entre otros ejercicios</p>
+                        </div>
+
                     </div>
+
+                  
                     <div class="card-body bg-secondary">
                         <h4 class="card-title text-primary">Máquina de tríceps</h4>
                         
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6 mb-5">
                 <div class="card border-0 bg-secondary text-center text-white">
-                    <img class="card-img-top" src="img/banda.webp" alt="">
-                    <div class="card-social d-flex align-items-center justify-content-center">
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-instagram"></i></a>
+                    <div class="image-container" style="position: relative;">
+                        <img class="card-img-top" src="img/banda.webp" alt="" onmouseover="mostrarDescripcion(this)" onmouseout="ocultarDescripcion(this)">
+
+                         <!-- Descripción (oculta inicialmente) -->
+                         <div class="descripcion-overlay" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; text-align: center; background-color: rgba(0, 0, 0, 0.6); color: white; padding: 10px; display: none;">
+                            <p>Mejora la salud cardiovascular Correr o caminar en una cinta de correr fortalece el corazón, reduce la presión arterial y mejora la circulación sanguínea</p>
+                        </div>
+
                     </div>
+
+                  
                     <div class="card-body bg-secondary">
                         <h4 class="card-title text-primary">Banda</h4>
                         
                     </div>
                 </div>
             </div>
+
+
             <div class="col-lg-3 col-md-6 mb-5">
                 <div class="card border-0 bg-secondary text-center text-white">
-                    <img class="card-img-top" src="img/mancuernas_2.webp" alt="">
-                    <div class="card-social d-flex align-items-center justify-content-center">
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-instagram"></i></a>
+                    <div class="image-container" style="position: relative;">
+                        <img class="card-img-top" src="img/mancuernas_2.webp" alt="" onmouseover="mostrarDescripcion(this)" onmouseout="ocultarDescripcion(this)">
+
+                         <!-- Descripción (oculta inicialmente) -->
+                         <div class="descripcion-overlay" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; text-align: center; background-color: rgba(0, 0, 0, 0.6); color: white; padding: 10px; display: none;">
+                            <p>Los discos de peso son elementos esenciales en  King´s Zone, para el entrenamiento de fuerza, culturismo o para mantenerse en forma.</p>
+                        </div>
+
                     </div>
+
+                  
+                    <div class="card-body bg-secondary">
+                        <h4 class="card-title text-primary">Discos</h4>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 mb-5">
+                <div class="card border-0 bg-secondary text-center text-white">
+                    <div class="image-container" style="position: relative;">
+                        <img class="card-img-top" src="img/pecho_inclinada.webp" alt="" onmouseover="mostrarDescripcion(this)" onmouseout="ocultarDescripcion(this)">
+
+                         <!-- Descripción (oculta inicialmente) -->
+                         <div class="descripcion-overlay" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; text-align: center; background-color: rgba(0, 0, 0, 0.6); color: white; padding: 10px; display: none;">
+                            <p>En  King´s Zone, tenemos Mancuernas Recubiertas de Goma o Uretano: Reducen el ruido y protegen el suelo y los equipos de golpes y rayaduras para un mejor entrenamiento. </p>
+                        </div>
+
+                    </div>
+
+                  
                     <div class="card-body bg-secondary">
                         <h4 class="card-title text-primary">Mancuernas</h4>
                         
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <div class="card border-0 bg-secondary text-center text-white">
-                    <img class="card-img-top" src="img/pecho_inclinada.webp" alt="">
-                    <div class="card-social d-flex align-items-center justify-content-center">
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                    <div class="card-body bg-secondary">
-                        <h4 class="card-title text-primary">Máquina de pecho inclinada</h4>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
 
 
     </div>
     <!-- Team End -->
 
+    <!-- Script para funciones para mostrar texto mientras se pasa el mouse sobre las imagenes -->
+
+    <script>
+        function mostrarDescripcion(element) {
+            // Mostrar la descripción
+            var descripcion = element.closest('.card').querySelector('.descripcion-overlay');
+            if (descripcion) {
+                descripcion.style.display = 'block';
+            }
+        }
+    
+        function ocultarDescripcion(element) {
+            // Ocultar la descripción
+            var descripcion = element.closest('.card').querySelector('.descripcion-overlay');
+            if (descripcion) {
+                descripcion.style.display = 'none';
+            }
+        }
+    </script>
+    
+    
+    
+
+<!-- End del Script-->
 
    <!-- Footer Start -->
    <style>
