@@ -4145,8 +4145,8 @@ input[type="submit"].btn-block {
   flex: 1 1 auto;
   min-height: 1px;
   padding: 1.25rem;
-  height: 110px ;
 }
+
 .card-title {
   margin-bottom: 0.75rem;
   
@@ -4200,6 +4200,14 @@ input[type="submit"].btn-block {
   width: 100%;
   max-height: 400px;
 }
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  flex-shrink: 0;
+  width: 100%;
+}
+
 .card-deck .card {
   margin-bottom: 15px;
 }
